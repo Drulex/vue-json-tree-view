@@ -7,6 +7,7 @@
 			:class="getValueType(data)"
 			v-model="valueString"
 			@keyup.enter="onUpdateData"
+			v-autowidth="{comfortZone: 3}"
 			@blur="onUpdateData"/>
 		<span v-else class="tree-view-item-value" :class="getValueType(data)" v-html="valueFormed"/>
 		<span v-show="error">{{ error }}</span>

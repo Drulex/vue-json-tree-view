@@ -22,7 +22,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"lodash": "^4.17.4",
-		"vue": "^2.5.16"
+		"vue": "^2.5.16",
+		"vue-input-autowidth": "^1.0.10"
 	},
 	"devDependencies": {
 		"babel-core": "^6.5.2",
